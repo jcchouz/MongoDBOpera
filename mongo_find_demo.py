@@ -6,8 +6,8 @@ client = pymongo.MongoClient(
     username='afish',
     password='afish1001'
 )
-db = client["runoobdb"]
-col = db["sites"]
+db = client["nfca"]
+col_1 = db["instrument"]
 
 
 # 查询一条数据 find_one()方法
