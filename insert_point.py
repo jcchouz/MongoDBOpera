@@ -25,7 +25,7 @@ db = client["nfca_db"]
 col = db["point"]
 
 
-def insert_json_data(point_id, opc_tag, describe, device_description_chinese, serial, instrument, device_name_chinese, belong_co, status, value_min, value_max, last_monitor_time):
+def insert_json_data(point_id, opc_tag, describe, device_description_chinese, serial, instrument, device_name_chinese, belong_co, status, value_min, value_max, unit, last_monitor_time):
     data = {
         "point_id": point_id,
         "opc_tag": opc_tag,
@@ -38,6 +38,7 @@ def insert_json_data(point_id, opc_tag, describe, device_description_chinese, se
         "status": status,
         "value_min": value_min,
         "value_max": value_max,
+        "unit": unit,
         "last_monitor_time": last_monitor_time
     }
     result = col.insert_one(data)
@@ -67,6 +68,7 @@ if __name__ == '__main__':
                 status="normal",
                 value_min=row[6],
                 value_max=row[7],
+                unit=row[8],
                 last_monitor_time=datetime.datetime.strptime("2019-11-25 12:24:40", "%Y-%m-%d %H:%M:%S")
             )
         point_id += 1

@@ -37,6 +37,7 @@ db = client["nfca_db"]
 col_1 = db["point"]
 col_2 = db["gms_monitor"]
 col_3 = db["warning_log"]
+col_4 = db["gms_now"]
 
 # 得到一个可以执行SQL语句的光标对象
 cursor = conn.cursor()
@@ -47,9 +48,15 @@ sql_1 = "select * from gms_monitor"
 # 执行SQL语句
 cursor.execute(sql_1)
 result = cursor.fetchall()
+
+# 先清空gms_now表，即现在的监测值，再更新数据
+col_4.remove()
+
 # 根据tag,找到对应id,再插入数据
 for r in result:
     point = col_1.find_one({"opc_tag": r[1]})
+    id = point["_id"]
+    print(id)
     point_id = point["point_id"]
     instrument = point["instrument"]
     value_min = point["value_min"]
@@ -75,15 +82,34 @@ for r in result:
         col_3.insert_one(warning)
         alarm = True
         print(str(r[2]) + "  数据异常，插入报警日志表.")
-    # 插入数据到监测表
+
+    # 插入数据到历史数据表
     monitor = {
         "point_id": point_id,
         "instrument": instrument,
         "time": datetime.datetime.strptime(str(time), '%Y-%m-%d %H:%M:%S'),
         "Monitoring_value": monitoring_value,
-        "alarm": alarm
+        "alarm": alarm,
+        "point": id
     }
     col_2.insert_one(monitor)
+
+    # 更新实时监测值数据表的数据
+    gms_now_query = col_4.find_one({"point_id": point_id})
+    if gms_now_query is None:
+        col_4.insert_one(monitor)
+    else:
+        newvalues = {"$set":
+                         {
+                             "instrument": instrument,
+                             "time": datetime.datetime.strptime(str(time), '%Y-%m-%d %H:%M:%S'),
+                             "Monitoring_value": monitoring_value,
+                             "alarm": alarm
+                          }
+                     }
+        col_4.update_one(gms_now_query, newvalues)
+
+    # 删除buffer中的数据
     sql_2 = "DELETE FROM gms_monitor WHERE id = %d" % r[0]
     cursor.execute(sql_2)
     print(str(r[2]) + "  monitor数据插入并删除成功.")
