@@ -18,7 +18,7 @@ print("========" + str(nowTime) + "========")
 
 # 建立MySQL连接
 conn = pymysql.connect(
-    host="202.204.62.229",
+    host="202.204.54.23",
     port=3308,
     user="root",
     password="admin",
@@ -29,7 +29,7 @@ conn = pymysql.connect(
 
 # 建立Mongodb连接
 client = pymongo.MongoClient(
-    "mongodb://202.204.62.229:27017/nfca_db",
+    "mongodb://202.204.54.23:27017/nfca_db",
     username='nfca',
     password='nfca'
 )
@@ -61,15 +61,18 @@ for r in result:
     instrument = point["instrument"]
     value_min = point["value_min"]
     value_max = point["value_max"]
+    fill_id = point["fill_id"]
     alarm = False  # 默认数据处在正常范围内
     monitoring_value = r[3]
     time = r[2]
+    state = r[4]
+    print(state)
 
     # 如果是泵，原始监测值会是很长一串，则将泵的原始监测值转换为0/1
     if point["instrument"] == "Valve":
         monitoring_value = (int(monitoring_value) >> 20) & 1
 
-    if not value_min <= r[3] <= value_max:  # 数据超出正常范围就记录到报警日志表
+    if monitoring_value < value_min or monitoring_value > value_max:  # 数据超出正常范围就记录到报警日志表
         warning = {
             "point_id": point_id,
             "instrument": instrument,
@@ -77,7 +80,8 @@ for r in result:
             "principal": 1,
             "value_min": value_min,
             "value_max": value_max,
-            "Monitoring_value": monitoring_value
+            "Monitoring_value": monitoring_value,
+            "fill_id": fill_id
         }
         col_3.insert_one(warning)
         alarm = True
@@ -90,7 +94,8 @@ for r in result:
         "time": datetime.datetime.strptime(str(time), '%Y-%m-%d %H:%M:%S'),
         "Monitoring_value": monitoring_value,
         "alarm": alarm,
-        "point": id
+        "point": id,
+        "fill_id": fill_id
     }
     col_2.insert_one(monitor)
 
@@ -104,7 +109,9 @@ for r in result:
                              "instrument": instrument,
                              "time": datetime.datetime.strptime(str(time), '%Y-%m-%d %H:%M:%S'),
                              "Monitoring_value": monitoring_value,
-                             "alarm": alarm
+                             "alarm": alarm,
+                             "state": state,
+                             "fill_id": fill_id
                           }
                      }
         col_4.update_one(gms_now_query, newvalues)

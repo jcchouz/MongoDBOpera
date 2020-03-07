@@ -10,17 +10,20 @@ import datetime
 point_id: 点位编号
 opc_tag: 点位tag
 describe: 点位描述
+device_description_chinese: 点位描述中文
 serial: 点位所属仪器编号
 instrument: 点位所属仪器
+device_name_chinese: 点位所属仪器中文
 belong_co: 点位所属公司
 status: 点位状态
 value_min: 正常工作最小值
 value_max: 正常工作最大值
+unit: 单位
 last_monitor_time: 最近数据采集时间
 """
 
 # 建立连接
-client = pymongo.MongoClient("mongodb://202.204.62.229:27017/nfca_db", username='nfca', password='nfca')
+client = pymongo.MongoClient("mongodb://202.204.54.23:27017/nfca_db", username='nfca', password='nfca')
 db = client["nfca_db"]
 col = db["point"]
 
