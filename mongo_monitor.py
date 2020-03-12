@@ -38,6 +38,7 @@ col_1 = db["point"]
 col_2 = db["gms_monitor"]
 col_3 = db["warning_log"]
 col_4 = db["gms_now"]
+col_5 = db['backfill_record']
 
 # 得到一个可以执行SQL语句的光标对象
 cursor = conn.cursor()
@@ -61,12 +62,28 @@ for r in result:
     instrument = point["instrument"]
     value_min = point["value_min"]
     value_max = point["value_max"]
-    fill_id = point["fill_id"]
     alarm = False  # 默认数据处在正常范围内
     monitoring_value = r[3]
     time = r[2]
     state = r[4]
     print(state)
+
+    # 根据point_id找点位，找到点位对应的浓密机号thickener_id 或者 搅拌机号mixer_id，根据thickener_id/mixer_id找对应的充填任务，得到对应的fill_id
+    # 即point_id --> thickener_id/mixer_id --> fii_id
+    thickener_id = point['thickener_id']
+    if thickener_id != 0:
+        backfill_record = col_5.find_one({"thickener_id": thickener_id})
+        if backfill_record:
+            fill_id = backfill_record["fill_id"]
+        else:
+            fill_id = -1
+    else:
+        mixer_id = point['mixer_id']
+        backfill_record = col_5.find_one({"mixer_id": mixer_id})
+        if backfill_record:
+            fill_id = backfill_record["fill_id"]
+        else:
+            fill_id = -1
 
     # 如果是泵，原始监测值会是很长一串，则将泵的原始监测值转换为0/1
     if point["instrument"] == "Valve":
