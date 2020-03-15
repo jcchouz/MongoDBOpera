@@ -75,7 +75,7 @@ for r in result:
         backfill_record = col_5.find_one({"thickener_id": thickener_id})
         if backfill_record:
             if backfill_record["fill_status"] == 1:  # 只有任务处于运行状态(online)才记录
-                fill_id = backfill_record["fill_id"]
+                fill_id = backfill_record["_id"]
             else:
                 fill_id = -1
         else:
@@ -85,7 +85,7 @@ for r in result:
         backfill_record = col_5.find_one({"mixer_id": mixer_id})
         if backfill_record:
             if backfill_record["fill_status"] == 1:  # 只有任务处于运行状态(online)才记录
-                fill_id = backfill_record["fill_id"]
+                fill_id = backfill_record["_id"]
             else:
                 fill_id = -1
         else:
