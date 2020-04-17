@@ -71,25 +71,18 @@ for r in result:
     # 根据point_id找点位，找到点位对应的浓密机号thickener_id 或者 搅拌机号mixer_id，根据thickener_id/mixer_id找对应的充填任务，得到对应的fill_id
     # 即point_id --> thickener_id/mixer_id --> fii_id
     thickener_id = point['thickener_id']
+    fill_id = -1
     if thickener_id != 0:
-        backfill_record = col_5.find_one({"thickener_id": thickener_id})
-        if backfill_record:
-            if backfill_record["fill_status"] == 1:  # 只有任务处于运行状态(online)才记录
-                fill_id = backfill_record["_id"]
-            else:
-                fill_id = -1
-        else:
-            fill_id = -1
+        backfill_record = col_5.find({"thickener_id": thickener_id})
+        for x in backfill_record:
+            if x["fill_status"] == 1:  # 只有任务处于运行状态(online)才记录
+                fill_id = x["_id"]
     else:
         mixer_id = point['mixer_id']
-        backfill_record = col_5.find_one({"mixer_id": mixer_id})
-        if backfill_record:
-            if backfill_record["fill_status"] == 1:  # 只有任务处于运行状态(online)才记录
-                fill_id = backfill_record["_id"]
-            else:
-                fill_id = -1
-        else:
-            fill_id = -1
+        backfill_record = col_5.find({"mixer_id": mixer_id})
+        for x in backfill_record:
+            if x["fill_status"] == 1:  # 只有任务处于运行状态(online)才记录
+                fill_id = x["_id"]
 
     # 如果是泵，原始监测值会是很长一串，则将泵的原始监测值转换为0/1
     if point["instrument"] == "Valve":
@@ -134,6 +127,7 @@ for r in result:
                              "Monitoring_value": monitoring_value,
                              "alarm": alarm,
                              "state": state,
+                             "point": id,
                              "fill_id": fill_id
                           }
                      }
