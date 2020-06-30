@@ -50,9 +50,6 @@ sql_1 = "select * from gms_monitor"
 cursor.execute(sql_1)
 result = cursor.fetchall()
 
-# 先清空gms_now表，即现在的监测值，再更新数据
-col_4.remove()
-
 # 根据tag,找到对应id,再插入数据
 for r in result:
     point = col_1.find_one({"opc_tag": r[1]})
