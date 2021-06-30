@@ -83,7 +83,6 @@ if __name__ == '__main__':
                     thickener_id=row[9],
                     mixer_id=row[10]
                 )
-                point_id += 1
             else:
                 newvalues = {"$set":
                                 {
