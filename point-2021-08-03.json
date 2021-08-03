@@ -1,0 +1,3050 @@
+[
+    {
+        "_id": {
+            "$oid": "604c8a451349e5c153ca691e"
+        },
+        "point_id": 1,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::AI-311TH01/MonAnalog.PV_Out#Value",
+        "describe": "#1 Thickener Overflow Turbidity",
+        "device_description_chinese": "#1浓密机溢流水浊度",
+        "serial": "AI-311TH01",
+        "instrument": "Turbidity Indicate",
+        "device_name_chinese": "浊度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 30.0,
+        "unit": "ppm",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a451349e5c153ca691f"
+        },
+        "point_id": 2,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::AI-311TH02/MonAnalog.PV_Out#Value",
+        "describe": "#2 Thickener Overflow Turbidity",
+        "device_description_chinese": "#2浓密机溢流水浊度",
+        "serial": "AI-311TH02",
+        "instrument": "Turbidity Indicate",
+        "device_name_chinese": "浊度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 30.0,
+        "unit": "ppm",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a451349e5c153ca6920"
+        },
+        "point_id": 3,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DI-210AG01/MonAnalog.PV_Out#Value",
+        "describe": "#1 Mixer Pump Discharge Concentration",
+        "device_description_chinese": "#1搅拌机出料浓度",
+        "serial": "DI-210AG01",
+        "instrument": "Density Indicator",
+        "device_name_chinese": "浓度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 75.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 1.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a451349e5c153ca6921"
+        },
+        "point_id": 4,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DI-210AG02/MonAnalog.PV_Out#Value",
+        "describe": "#2 Mixer Pump Discharge Concentration",
+        "device_description_chinese": "#2搅拌机出料浓度",
+        "serial": "DI-210AG02",
+        "instrument": "Density Indicator",
+        "device_name_chinese": "浓度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 75.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 2.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a451349e5c153ca6922"
+        },
+        "point_id": 5,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DI-311TH01A/MonAnalog.PV_Out#Value",
+        "describe": "#1 Thickener Feed Concentration",
+        "device_description_chinese": "#1浓密机进料浓度",
+        "serial": "DI-311TH01A",
+        "instrument": "Density Indicator",
+        "device_name_chinese": "浓度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 50.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a451349e5c153ca6923"
+        },
+        "point_id": 6,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DI-311TH02A/MonAnalog.PV_Out#Value",
+        "describe": "#2 Thickener Feed Concentration",
+        "device_description_chinese": "#2浓密机进料浓度",
+        "serial": "DI-311TH02A",
+        "instrument": "Density Indicator",
+        "device_name_chinese": "浓度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 50.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a451349e5c153ca6924"
+        },
+        "point_id": 7,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DIC-311TH01B_Back/MonAnalog.PV#Value",
+        "describe": "#1 Thickener Discharge Concentration",
+        "device_description_chinese": "#1浓密机出料浓度-充填",
+        "serial": "DIC-311TH01B",
+        "instrument": "Density Indicator",
+        "device_name_chinese": "浓度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -9.9999999E+07,
+        "value_max": 70.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a451349e5c153ca6925"
+        },
+        "point_id": 8,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DIC-311TH02B_Back/MonAnalog.PV#Value",
+        "describe": "#2 Thickener Discharge Concentration",
+        "device_description_chinese": "#2浓密机出料浓度-充填",
+        "serial": "DIC-311TH02B",
+        "instrument": "Density Indicator",
+        "device_name_chinese": "浓度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -9.9999999E+07,
+        "value_max": 70.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2021-06-15T06:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a461349e5c153ca6926"
+        },
+        "point_id": 9,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FI-210AG01/MonAnalog.PV#Value",
+        "describe": "#1 Mixer Discharge flow",
+        "device_description_chinese": "#1搅拌机出料流量",
+        "serial": "FI-210AG01",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 185.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 1.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a461349e5c153ca6927"
+        },
+        "point_id": 10,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FI-210AG02/MonAnalog.PV#Value",
+        "describe": "#2 Mixer Discharge Flow",
+        "device_description_chinese": "#2搅拌机出料流量",
+        "serial": "FI-210AG02",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 185.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 2.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a461349e5c153ca6928"
+        },
+        "point_id": 11,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FI-311TH01A/MonAnalog.PV#Value",
+        "describe": "#1 Thickener Feed Flow",
+        "device_description_chinese": "#1浓密机进料流量",
+        "serial": "FI-311TH01A",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 1500.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a461349e5c153ca6929"
+        },
+        "point_id": 12,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FI-311TH02A/MonAnalog.PV#Value",
+        "describe": "#2 Thickener Feed Flow",
+        "device_description_chinese": "#2浓密机进料流量",
+        "serial": "FI-311TH02A",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 1500.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a461349e5c153ca692a"
+        },
+        "point_id": 13,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FIC-311PS05/PID.PV#Value",
+        "describe": "#1 Thickener Dilution Water Flow DN100mm",
+        "device_description_chinese": "#1浓密机稀释水流量DN100mm",
+        "serial": "FIC-311PS05",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -2.0,
+        "value_max": 100.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a461349e5c153ca692b"
+        },
+        "point_id": 14,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FIC-311PS07/PID.PV#Value",
+        "describe": "#2 Thickener Dilution Water Flow DN100mm",
+        "device_description_chinese": "#2浓密机稀释水流量DN100mm",
+        "serial": "FIC-311PS07",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -2.0,
+        "value_max": 70.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a461349e5c153ca692c"
+        },
+        "point_id": 15,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FIC-311PS08/PID.PV#Value",
+        "describe": "#1 Thickener Dilution Water Flow DN40mm",
+        "device_description_chinese": "#1浓密机稀释水流量DN40mm",
+        "serial": "FIC-311PS08",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -2.0,
+        "value_max": 100.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a461349e5c153ca692d"
+        },
+        "point_id": 16,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FIC-311PS10/PID.PV#Value",
+        "describe": "#2 Thickener Dilution Water Flow DN40mm",
+        "device_description_chinese": "#2浓密机稀释水流量DN40mm",
+        "serial": "FIC-311PS10",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -2.0,
+        "value_max": 70.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a461349e5c153ca692e"
+        },
+        "point_id": 17,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FI-311TH01B/MonAnalog.PV#Value",
+        "describe": "#1 Thickener Discharge Flow",
+        "device_description_chinese": "#1浓密机底流流量",
+        "serial": "FIC-311TH01B",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 300.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a461349e5c153ca692f"
+        },
+        "point_id": 18,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FI-311TH02B/MonAnalog.PV#Value",
+        "describe": "#2 Thickener Discharge Flow",
+        "device_description_chinese": "#2浓密机底流流量",
+        "serial": "FIC-311TH02B",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 300.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a461349e5c153ca6930"
+        },
+        "point_id": 19,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS01A/Valve.Status2",
+        "describe": "#1 Thickener Discharge Pump 1 Inlet Valve",
+        "device_description_chinese": "#1浓密机1号泵入料阀门",
+        "serial": "HIC-311PS01A",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a471349e5c153ca6931"
+        },
+        "point_id": 20,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS01B/Valve.Status2",
+        "describe": "#1 Thickener Discharge Pump 1 Discharge Valve",
+        "device_description_chinese": "#1浓密机1号泵出料阀门",
+        "serial": "HIC-311PS01B",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a471349e5c153ca6932"
+        },
+        "point_id": 21,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS01C/Valve.Status2",
+        "describe": "#1 Thickener Discharge Pump 1 SY1-1 Water Addition Valve DN100mm",
+        "device_description_chinese": "#1浓密机1号泵稀释水阀门DN100mm",
+        "serial": "HIC-311PS01C",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a471349e5c153ca6933"
+        },
+        "point_id": 22,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS01D/Valve.Status2",
+        "describe": "#1 Thickener Discharge Pump 1 SY2-1 Water Addition Valve DN40mm",
+        "device_description_chinese": "#1浓密机1号泵稀释水阀门DN40mm",
+        "serial": "HIC-311PS01D",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a471349e5c153ca6934"
+        },
+        "point_id": 23,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS02A/Valve.Status2",
+        "describe": "#1 Thickener Discharge Pump 2 Inlet Valve",
+        "device_description_chinese": "#1浓密机2号泵入料阀门",
+        "serial": "HIC-311PS02A",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a471349e5c153ca6935"
+        },
+        "point_id": 24,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS02B/Valve.Status2",
+        "describe": "#1 Thickener Discharge Pump 2 Discharge Valve",
+        "device_description_chinese": "#1浓密机2号泵出料阀门",
+        "serial": "HIC-311PS02B",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a471349e5c153ca6936"
+        },
+        "point_id": 25,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS02C/Valve.Status2",
+        "describe": "#1 Thickener Discharge Pump 2 SY1-1 Water Addition Valve DN100mm",
+        "device_description_chinese": "#1浓密机2号泵稀释水阀门DN100mm",
+        "serial": "HIC-311PS02C",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a471349e5c153ca6937"
+        },
+        "point_id": 26,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS02D/Valve.Status2",
+        "describe": "#1 Thickener Discharge Pump 2 SY2-1 Water Addition Valve DN40mm",
+        "device_description_chinese": "#1浓密机2号泵稀释水阀门DN40mm",
+        "serial": "HIC-311PS02D",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a471349e5c153ca6938"
+        },
+        "point_id": 27,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS03A/Valve.Status2",
+        "describe": "#2 Thickener Discharge Pump 1 Inlet Valve",
+        "device_description_chinese": "#2浓密机1号泵入料阀门",
+        "serial": "HIC-311PS03A",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a471349e5c153ca6939"
+        },
+        "point_id": 28,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS03B/Valve.Status2",
+        "describe": "#2 Thickener Discharge Pump 1 Discharge Valve",
+        "device_description_chinese": "#2浓密机1号泵出料阀门",
+        "serial": "HIC-311PS03B",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a471349e5c153ca693a"
+        },
+        "point_id": 29,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS03C/Valve.Status2",
+        "describe": "#2 Thickener Discharge Pump 1 SY1-1 Water Addition Valve DN100mm",
+        "device_description_chinese": "#2浓密机1号泵稀释水阀门DN100mm",
+        "serial": "HIC-311PS03C",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a481349e5c153ca693b"
+        },
+        "point_id": 30,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS03D/Valve.Status2",
+        "describe": "#2 Thickener Discharge Pump 1 SY2-1 Water Addition Valve DN40mm",
+        "device_description_chinese": "#2浓密机1号泵稀释水阀门DN40mm",
+        "serial": "HIC-311PS03D",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a481349e5c153ca693c"
+        },
+        "point_id": 31,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS04A/Valve.Status2",
+        "describe": "#2 Thickener Discharge Pump 2 Inlet Valve",
+        "device_description_chinese": "#2浓密机2号泵入料阀门",
+        "serial": "HIC-311PS04A",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a481349e5c153ca693d"
+        },
+        "point_id": 32,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS04B/Valve.Status2",
+        "describe": "#2 Thickener Discharge Pump 2 Discharge Valve",
+        "device_description_chinese": "#2浓密机2号泵出料阀门",
+        "serial": "HIC-311PS04B",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a481349e5c153ca693e"
+        },
+        "point_id": 33,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS04C/Valve.Status2",
+        "describe": "#2 Thickener Discharge Pump 2 SY1-1 Water Addition Valve DN100mm",
+        "device_description_chinese": "#2浓密机2号泵稀释水阀门DN100mm",
+        "serial": "HIC-311PS04C",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a481349e5c153ca693f"
+        },
+        "point_id": 34,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311PS04D/Valve.Status2",
+        "describe": "#2 Thickener Discharge Pump 2 SY2-1 Water Addition Valve DN40mm",
+        "device_description_chinese": "#2浓密机2号泵稀释水阀门DN40mm",
+        "serial": "HIC-311PS04D",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a481349e5c153ca6940"
+        },
+        "point_id": 35,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311TH01B/Valve.Status2",
+        "describe": "#1 Thickener Pumps Discharge Valve 2 - Tailing Pump",
+        "device_description_chinese": "#1浓密机排尾阀门",
+        "serial": "HIC-311TH01B",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a481349e5c153ca6941"
+        },
+        "point_id": 36,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311TH01C/Valve.Status2",
+        "describe": "#1 Thickener Pumps Discharge Valve 3 - CEMENT MIXER 1",
+        "device_description_chinese": "#1浓密机充填阀门",
+        "serial": "HIC-311TH01C",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a481349e5c153ca6942"
+        },
+        "point_id": 37,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311TH01D/Valve.Status2",
+        "describe": "#1 Thickener Recirc Valve",
+        "device_description_chinese": "#1浓密机底流循环阀门",
+        "serial": "HIC-311TH01D",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a481349e5c153ca6943"
+        },
+        "point_id": 38,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311TH02B/Valve.Status2",
+        "describe": "#2 Thickener Pumps Discharge Valve 2 - Tailing Pump #1",
+        "device_description_chinese": "#2浓密机排尾阀门",
+        "serial": "HIC-311TH02B",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a481349e5c153ca6944"
+        },
+        "point_id": 39,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311TH02C/Valve.Status2",
+        "describe": "#2 Thickener Pumps Discharge Valve 3 - CEMENT MIXER 2",
+        "device_description_chinese": "#2浓密机充填阀门",
+        "serial": "HIC-311TH02C",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a481349e5c153ca6945"
+        },
+        "point_id": 40,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIC-311TH02D/Valve.Status2",
+        "describe": "#2 Thickener Recirc Valve",
+        "device_description_chinese": "#2浓密机底流循环阀门",
+        "serial": "HIC-311TH02D",
+        "instrument": "Valve",
+        "device_name_chinese": "阀门",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 2.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a491349e5c153ca6946"
+        },
+        "point_id": 41,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIS-210AG01-01/DriveSpeedContr.RbkOut#Value",
+        "describe": "#1 Mixer First Stage Stirring Speed",
+        "device_description_chinese": "#1搅拌机一段旋桨转速",
+        "serial": "HIS-210AG01-01",
+        "instrument": "Mixer",
+        "device_name_chinese": "搅拌机",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 55.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 1.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a491349e5c153ca6947"
+        },
+        "point_id": 42,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIS-210AG01-02/DriveSpeedContr.RbkOut#Value",
+        "describe": "#1 Mixer Secondary Stage Stirring Speed",
+        "device_description_chinese": "#1搅拌机二段旋桨转速",
+        "serial": "HIS-210AG01-02",
+        "instrument": "Mixer",
+        "device_name_chinese": "搅拌机",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 55.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 1.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a491349e5c153ca6948"
+        },
+        "point_id": 43,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIS-210AG02-01/DriveSpeedContr.RbkOut#Value",
+        "describe": "#2 Mixer First Stage Stirring Speed",
+        "device_description_chinese": "#2搅拌机一段旋桨转速",
+        "serial": "HIS-210AG02-01",
+        "instrument": "Mixer",
+        "device_name_chinese": "搅拌机",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 55.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 2.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a491349e5c153ca6949"
+        },
+        "point_id": 44,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIS-210AG02-02/DriveSpeedContr.RbkOut#Value",
+        "describe": "#2 Mixer Secondary Stage Stirring Speed",
+        "device_description_chinese": "#2搅拌机二段旋桨转速",
+        "serial": "HIS-210AG02-02",
+        "instrument": "Mixer",
+        "device_name_chinese": "搅拌机",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 55.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 2.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a491349e5c153ca694a"
+        },
+        "point_id": 45,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIS-311TH01/DriveSpeedContr.RbkOut#Value",
+        "describe": "#1 Thickener Rake Speed",
+        "device_description_chinese": "#1浓密机耙架转速",
+        "serial": "HIS-311TH01",
+        "instrument": "Rake",
+        "device_name_chinese": "杷架",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 60.0,
+        "unit": "rpm",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a491349e5c153ca694b"
+        },
+        "point_id": 46,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIS-311TH02/DriveSpeedContr.RbkOut#Value",
+        "describe": "#2 Thickener Rake Speed",
+        "device_description_chinese": "#2浓密机耙架转速",
+        "serial": "HIS-311TH02",
+        "instrument": "Rake",
+        "device_name_chinese": "杷架",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 60.0,
+        "unit": "rpm",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a491349e5c153ca694c"
+        },
+        "point_id": 47,
+        "opc_tag": "NULL",
+        "describe": "#1 Mixer Slurry concentration(Calculation)",
+        "device_description_chinese": "#1搅拌机膏体浓度(计算值)",
+        "serial": "NULL",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 100.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 1.0,
+        "instrument": "Mixer",
+        "device_name_chinese": "搅拌机",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a491349e5c153ca694d"
+        },
+        "point_id": 48,
+        "opc_tag": "NULL",
+        "describe": "#2 Mixer Slurry concentration(Calculation)",
+        "device_description_chinese": "#2搅拌机膏体浓度(计算值)",
+        "serial": "NULL",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 100.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 2.0,
+        "instrument": "Mixer",
+        "device_name_chinese": "搅拌机",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a491349e5c153ca694e"
+        },
+        "point_id": 49,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FIC-311TH01B/OCS.PV_Out#Value",
+        "describe": "#1 Thickener Discharge Flow",
+        "device_description_chinese": "#1浓密机底流流量(跟踪值)",
+        "serial": "FIC-311TH01B",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 400.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a491349e5c153ca694f"
+        },
+        "point_id": 50,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FIC-311TH02B/OCS.PV_Out#Value",
+        "describe": "#2 Thickener Discharge Flow",
+        "device_description_chinese": "#2浓密机底流流量(跟踪值)",
+        "serial": "FIC-311TH02B",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 400.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a491349e5c153ca6950"
+        },
+        "point_id": 51,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::LI-210BN01/MonAnalog.PV_Out#Value",
+        "describe": "#1 Cement Silo Level",
+        "device_description_chinese": "#1水泥仓物料高度",
+        "serial": "LI-210BN01",
+        "instrument": "Level Indicator",
+        "device_name_chinese": "液位计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 100.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4a1349e5c153ca6951"
+        },
+        "point_id": 52,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::LI-210BN02/MonAnalog.PV_Out#Value",
+        "describe": "#2 Cement Silo Level",
+        "device_description_chinese": "#2水泥仓物料高度",
+        "serial": "LI-210BN02",
+        "instrument": "Level Indicator",
+        "device_name_chinese": "液位计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 100.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4a1349e5c153ca6952"
+        },
+        "point_id": 53,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::LI-311TH01/MonAnalog.PV_Out#Value",
+        "describe": "#1 Thickener Mud Level",
+        "device_description_chinese": "#1浓密机泥层高度",
+        "serial": "LI-311TH01",
+        "instrument": "Level Indicator",
+        "device_name_chinese": "液位计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 20.0,
+        "unit": "m",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4a1349e5c153ca6953"
+        },
+        "point_id": 54,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::LI-311TH02/MonAnalog.PV_Out#Value",
+        "describe": "#2 Thickener Mud Level",
+        "device_description_chinese": "#2浓密机泥层高度",
+        "serial": "LI-311TH02",
+        "instrument": "Level Indicator",
+        "device_name_chinese": "液位计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 20.0,
+        "unit": "m",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4a1349e5c153ca6954"
+        },
+        "point_id": 55,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::Dosing$Pump$A/Flow_SP.PV_In#Value",
+        "describe": "#1 Thickener Flocculant Flow",
+        "device_description_chinese": "#1浓密机絮凝剂流量",
+        "serial": "FI-311FL01D",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4a1349e5c153ca6955"
+        },
+        "point_id": 56,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::Dosing$Pump$C/Flow_SP.PV_In#Value",
+        "describe": "#2 Thickener Flocculant Flow",
+        "device_description_chinese": "#2浓密机絮凝剂流量",
+        "serial": "FI-311FL01C",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4a1349e5c153ca6956"
+        },
+        "point_id": 57,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIS-210FDM01/Motor.RbkOut#Value",
+        "describe": "#1 Instant Cement Delivery",
+        "device_description_chinese": "#1 搅拌机水泥添加速度(实际值)",
+        "serial": "HIS-210FDM01",
+        "instrument": "Cement Conveyor Belt",
+        "device_name_chinese": "水泥传送带",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 200.0,
+        "unit": "t/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 1.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4a1349e5c153ca6957"
+        },
+        "point_id": 58,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIS-210FDM02/Motor.RbkOut#Value",
+        "describe": "#2 Instant Cement Delivery ",
+        "device_description_chinese": "#2 搅拌机水泥添加速度(实际值)",
+        "serial": "HIS-210FDM02",
+        "instrument": "Cement Conveyor Belt",
+        "device_name_chinese": "水泥传送带",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 200.0,
+        "unit": "t/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 2.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4a1349e5c153ca6958"
+        },
+        "point_id": 59,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::OI-311TH01-01/MonAnalog.PV#Value",
+        "describe": "#1 Thickener Rake Torque-1",
+        "device_description_chinese": "#1浓密机耙架扭矩值-1",
+        "serial": "OI-311TH01-01",
+        "instrument": "Rake",
+        "device_name_chinese": "耙架",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 20.0,
+        "value_max": 60.0,
+        "value_min_2": -9.9999999E+07,
+        "value_max_2": 2.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4a1349e5c153ca6959"
+        },
+        "point_id": 60,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::OI-311TH01-02/MonAnalog.PV#Value",
+        "describe": "#1 Thickener Rake Torque-2",
+        "device_description_chinese": "#1浓密机耙架扭矩值-2",
+        "serial": "OI-311TH01-02",
+        "instrument": "Rake",
+        "device_name_chinese": "耙架",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 20.0,
+        "value_max": 60.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_min_2": -9.9999999E+07,
+        "value_max_2": 2.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4a1349e5c153ca695a"
+        },
+        "point_id": 61,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::OI-311TH01-03/MonAnalog.PV#Value",
+        "describe": "#1 Thickener Rake Torque-3",
+        "device_description_chinese": "#1浓密机耙架扭矩值-3",
+        "serial": "OI-311TH01-03",
+        "instrument": "Rake",
+        "device_name_chinese": "耙架",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 20.0,
+        "value_max": 60.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_min_2": -9.9999999E+07,
+        "value_max_2": 2.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4a1349e5c153ca695b"
+        },
+        "point_id": 62,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::OI-311TH01-04/MonAnalog.PV#Value",
+        "describe": "#1 Thickener Rake Torque-4",
+        "device_description_chinese": "#1浓密机耙架扭矩值-4",
+        "serial": "OI-311TH01-04",
+        "instrument": "Rake",
+        "device_name_chinese": "耙架",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 20.0,
+        "value_max": 60.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 2.0,
+        "value_min_2": -9.9999999E+07
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4b1349e5c153ca695c"
+        },
+        "point_id": 63,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::OI-311TH02-01/MonAnalog.PV#Value",
+        "describe": "#2 Thickener Rake Torque-1",
+        "device_description_chinese": "#2浓密机耙架扭矩值-1",
+        "serial": "OI-311TH02-01",
+        "instrument": "Rake",
+        "device_name_chinese": "耙架",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 20.0,
+        "value_max": 60.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 2.0,
+        "value_min_2": -9.9999999E+07
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4b1349e5c153ca695d"
+        },
+        "point_id": 64,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::OI-311TH02-02/MonAnalog.PV#Value",
+        "describe": "#2 Thickener Rake Torque-2",
+        "device_description_chinese": "#2浓密机耙架扭矩值-2",
+        "serial": "OI-311TH02-02",
+        "instrument": "Rake",
+        "device_name_chinese": "耙架",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 20.0,
+        "value_max": 60.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 2.0,
+        "value_min_2": -9.9999999E+07
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4b1349e5c153ca695e"
+        },
+        "point_id": 65,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::OI-311TH02-03/MonAnalog.PV#Value",
+        "describe": "#2 Thickener Rake Torque-3",
+        "device_description_chinese": "#2浓密机耙架扭矩值-3",
+        "serial": "OI-311TH02-03",
+        "instrument": "Rake",
+        "device_name_chinese": "耙架",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 20.0,
+        "value_max": 60.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 2.0,
+        "value_min_2": -9.9999999E+07
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4b1349e5c153ca695f"
+        },
+        "point_id": 66,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::OI-311TH02-04/MonAnalog.PV#Value",
+        "describe": "#2 Thickener Rake Torque-4",
+        "device_description_chinese": "#2浓密机耙架扭矩值-4",
+        "serial": "OI-311TH02-04",
+        "instrument": "Rake",
+        "device_name_chinese": "耙架",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 20.0,
+        "value_max": 60.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 2.0,
+        "value_min_2": -9.9999999E+07
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4b1349e5c153ca6960"
+        },
+        "point_id": 67,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PI-311TH01/MonAnalog.PV#Value",
+        "describe": "#1 Thickener Mud Pressure",
+        "device_description_chinese": "#1浓密机泥层压力",
+        "serial": "PI-311TH01",
+        "instrument": "Pressure Indicator",
+        "device_name_chinese": "压力计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 90.0,
+        "unit": "Mpa",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4b1349e5c153ca6961"
+        },
+        "point_id": 68,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PI-311TH02/MonAnalog.PV#Value",
+        "describe": "#2 Thickener Mud Pressure",
+        "device_description_chinese": "#2浓密机泥层压力",
+        "serial": "PI-311TH02",
+        "instrument": "Pressure Indicator",
+        "device_name_chinese": "压力计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 90.0,
+        "unit": "MPa",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4b1349e5c153ca6964"
+        },
+        "point_id": 69,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DIC-311TH01B_Back/BackFillingDiCtr.DI_SP#Value",
+        "describe": "#1 Thickener Discharge Concentration(write tag)",
+        "device_description_chinese": "#1浓密机出料浓度(DCS系统设定值)",
+        "serial": "DIC-311TH01B",
+        "instrument": "Density Controller",
+        "device_name_chinese": "浓度控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4b1349e5c153ca6965"
+        },
+        "point_id": 70,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DIC-311TH02B_Back/BackFillingDiCtr.DI_SP#Value",
+        "describe": "#2 Thickener Discharge Concentration(write tag)",
+        "device_description_chinese": "#2浓密机出料浓度(DCS系统设定值)",
+        "serial": "DIC-311TH02B",
+        "instrument": "Density Controller",
+        "device_name_chinese": "浓度控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4c1349e5c153ca696a"
+        },
+        "point_id": 73,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FIC-311TH01B/PID.SP_Int",
+        "describe": "#1 Thickener Discharge Flow(write tag)",
+        "device_description_chinese": "#1浓密机底流流量(DCS系统设定值)",
+        "serial": "FIC-311TH01B",
+        "instrument": "Flow Controller",
+        "device_name_chinese": "流量控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4c1349e5c153ca696b"
+        },
+        "point_id": 74,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FIC-311TH02B/PID.SP_Int",
+        "describe": "#2 Thickener Discharge Flow(write tag)",
+        "device_description_chinese": "#2浓密机底流流量(DCS系统设定值)",
+        "serial": "FIC-311TH02B",
+        "instrument": "Flow Controller",
+        "device_name_chinese": "流量控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4c1349e5c153ca696c"
+        },
+        "point_id": 75,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIS-210FDM01/CementRatioSP.In01#Value",
+        "describe": "#1 Mixer Cement Sand Ratio(write tag)",
+        "device_description_chinese": "#1搅拌机灰砂比(DCS系统设定值)",
+        "serial": "HIS-210FDM01",
+        "instrument": "Cement Ratio Controller",
+        "device_name_chinese": "灰砂比控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 1.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4c1349e5c153ca696d"
+        },
+        "point_id": 76,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIS-210FDM02/CementRatioSP.In01#Value",
+        "describe": "#2 Mixer Cement Sand Ratio(write tag)",
+        "device_description_chinese": "#2搅拌机灰砂比(DCS系统设定值)",
+        "serial": "HIS-210FDM02",
+        "instrument": "Cement Ratio Controller",
+        "device_name_chinese": "灰砂比控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 2.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4d1349e5c153ca6971"
+        },
+        "point_id": 77,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::Concentration/Concentration.PV_In#Value",
+        "describe": "Thickener flocculant Concentration",
+        "device_description_chinese": "浓密机絮凝剂浓度",
+        "serial": "DI-311FL01D",
+        "instrument": "Concentration Indicator",
+        "device_name_chinese": "浓度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 3.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4e1349e5c153ca6980"
+        },
+        "point_id": 78,
+        "opc_tag": "NULL",
+        "describe": "#1 Thickener Discharge Concentration(write tag)",
+        "device_description_chinese": "#1浓密机出料浓度(OPC写入)",
+        "serial": "DIC-311TH01B",
+        "instrument": "Density Controller",
+        "device_name_chinese": "浓度控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4e1349e5c153ca6981"
+        },
+        "point_id": 79,
+        "opc_tag": "NULL",
+        "describe": "#2 Thickener Discharge Concentration(write tag)",
+        "device_description_chinese": "#2浓密机出料浓度(OPC写入)",
+        "serial": "DIC-311TH02B",
+        "instrument": "Density Controller",
+        "device_name_chinese": "浓度控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4e1349e5c153ca6986"
+        },
+        "point_id": 80,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FIC-311TH01B/OCS.SP",
+        "describe": "#1 Thickener Discharge Flow(write tag)",
+        "device_description_chinese": "#1浓密机底流流量(OPC写入)",
+        "serial": "FIC-311TH01B",
+        "instrument": "Flow Controller",
+        "device_name_chinese": "流量控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4e1349e5c153ca6987"
+        },
+        "point_id": 81,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FIC-311TH02B/OCS.SP",
+        "describe": "#2 Thickener Discharge Flow(write tag)",
+        "device_description_chinese": "#2浓密机底流流量(OPC写入)",
+        "serial": "FIC-311TH02B",
+        "instrument": "Flow Controller",
+        "device_name_chinese": "流量控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4e1349e5c153ca6988"
+        },
+        "point_id": 82,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::Dosing$Pump$A/OCS.SP",
+        "describe": "#1 Thickener flocculant Flow(write tag)",
+        "device_description_chinese": "#1絮凝剂流量(OPC写入)",
+        "serial": "FI-311FL01D",
+        "instrument": "Flocculant Addition Controller",
+        "device_name_chinese": "絮凝剂添加量控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "604c8a4e1349e5c153ca6989"
+        },
+        "point_id": 83,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::Dosing$Pump$C/OCS.SP",
+        "describe": "#2 Thickener flocculant Flow(write tag)",
+        "device_description_chinese": "#2絮凝剂流量(OPC写入)",
+        "serial": "FI-311FL01C",
+        "instrument": "Flocculant Addition Controller",
+        "device_name_chinese": "絮凝剂添加量控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "6082815b677f000062003ba4"
+        },
+        "point_id": 71,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIS-210FDM01/Motor.SP_Out#Value",
+        "describe": "#1 Instant Cement Delivery",
+        "device_description_chinese": "#1 搅拌机水泥添加速度(DCS系统设定值)",
+        "serial": "HIS-210FDM01",
+        "instrument": "Cement Conveyor Belt",
+        "device_name_chinese": "水泥传送带",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 200.0,
+        "unit": "t/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 1.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60828192677f000062003ba5"
+        },
+        "point_id": 72,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::HIS-210FDM02/Motor.SP_Out#Value",
+        "describe": "#2 Instant Cement Delivery",
+        "device_description_chinese": "#2 搅拌机水泥添加速度(DCS系统设定值)",
+        "serial": "HIS-210FDM01",
+        "instrument": "Cement Conveyor Belt",
+        "device_name_chinese": "水泥传送带",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 200.0,
+        "unit": "t/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 2.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "6087c8678c53000092004fb2"
+        },
+        "point_id": 84,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::Dosing$Pump$A/OCS.PV_Out#Value",
+        "describe": "#1 Thickener flocculant Flow",
+        "device_description_chinese": "#1絮凝剂流量(跟踪值)",
+        "serial": "FI-311FL01D",
+        "instrument": "Flocculant",
+        "device_name_chinese": "絮凝剂添加量控制",
+        "belong_co": "USTB1001",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 20.0,
+        "unit": "g/T",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "6087c8878c53000092004fb3"
+        },
+        "point_id": 85,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::Dosing$Pump$A/OCS.PV_Out#Value",
+        "describe": "#2 Thickener flocculant Flow",
+        "device_description_chinese": "#2絮凝剂流量(跟踪值)",
+        "serial": "FI-311FL02D",
+        "instrument": "Flocculant",
+        "device_name_chinese": "絮凝剂添加量控制",
+        "belong_co": "USTB1001",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 20.0,
+        "unit": "g/T",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "6090017e711a0000ca005bf5"
+        },
+        "point_id": 86,
+        "opc_tag": "NULL",
+        "describe": "#1 Mixer Cement Sand Ratio(Calculation)",
+        "device_description_chinese": "#1搅拌机灰砂比(计算值)",
+        "serial": "HIS-210FDM01",
+        "instrument": "Cement Ratio Controller",
+        "device_name_chinese": "灰砂比控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 1.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "609001cc711a0000ca005bf6"
+        },
+        "point_id": 87,
+        "opc_tag": "NULL",
+        "describe": "#2 Mixer Cement Sand Ratio(Calculation)",
+        "device_description_chinese": "#2搅拌机灰砂比(计算值)",
+        "serial": "HIS-210FDM02",
+        "instrument": "Cement Ratio Controller",
+        "device_name_chinese": "灰砂比控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 2.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "609938cd0166000071003502"
+        },
+        "point_id": 88,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::Dosing$Pump$A/Flow_SP.SP_Out#Value",
+        "describe": "#1 Thickener flocculant Flow(DCS system setpoint)",
+        "device_description_chinese": "#1絮凝剂流量(DCS系统设定值)",
+        "serial": "FI-311FL01D",
+        "instrument": "Flocculant Addition Controller",
+        "device_name_chinese": "絮凝剂添加量控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "609938fa0166000071003503"
+        },
+        "point_id": 89,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::Dosing$Pump$C/Flow_SP.SP_Out#Value",
+        "describe": "#2 Thickener flocculant Flow(DCS system setpoint)",
+        "device_description_chinese": "#2絮凝剂流量(DCS系统设定值)",
+        "serial": "FI-311FL02D",
+        "instrument": "Flocculant Addition Controller",
+        "device_name_chinese": "絮凝剂添加量控制",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 0.0,
+        "unit": "-",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60993b6d0166000071003504"
+        },
+        "point_id": 90,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FI-311TH01C/MonAnalog.PV#Value",
+        "describe": "#1 Mixer Feed flow",
+        "device_description_chinese": "#1搅拌机进料流量",
+        "serial": "FI-311TH01C",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 250.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 1.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60993b990166000071003505"
+        },
+        "point_id": 91,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FI-311TH02C/MonAnalog.PV#Value",
+        "describe": "#2 Mixer Feed flow",
+        "device_description_chinese": "#2搅拌机进料流量",
+        "serial": "FI-311TH02C",
+        "instrument": "Flow Indicator",
+        "device_name_chinese": "流量计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 250.0,
+        "unit": "m3/h",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 2.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60af66ff58630000a7005752"
+        },
+        "point_id": 92,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PI-602PS01A/MonAnalog.PV#Value",
+        "describe": "#1 Diaphragm pump Inlet pressure",
+        "device_description_chinese": "#1隔膜泵进口压力",
+        "serial": "PI-602PS01A",
+        "instrument": "Pressure Indicator",
+        "device_name_chinese": "压力计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.2,
+        "value_max": 3.0,
+        "unit": "MPa",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.02,
+        "value_min_2": -9.9999999E+07
+    },
+    {
+        "_id": {
+            "$oid": "60af671958630000a7005753"
+        },
+        "point_id": 93,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PI-602PS02A/MonAnalog.PV#Value",
+        "describe": "#2 Diaphragm pump Inlet pressure",
+        "device_description_chinese": "#2隔膜泵进口压力",
+        "serial": "PI-602PS02A",
+        "instrument": "Pressure Indicator",
+        "device_name_chinese": "压力计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.2,
+        "value_max": 3.0,
+        "unit": "MPa",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.02,
+        "value_min_2": -9.9999999E+07
+    },
+    {
+        "_id": {
+            "$oid": "60af675158630000a7005754"
+        },
+        "point_id": 94,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PI-602PS03A/MonAnalog.PV#Value",
+        "describe": "#3 Diaphragm pump Inlet pressure",
+        "device_description_chinese": "#3隔膜泵进口压力",
+        "serial": "PI-602PS03A",
+        "instrument": "Pressure Indicator",
+        "device_name_chinese": "压力计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.2,
+        "value_max": 3.0,
+        "unit": "MPa",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.02,
+        "value_min_2": -9.9999999E+07
+    },
+    {
+        "_id": {
+            "$oid": "60af697b58630000a7005755"
+        },
+        "opc_tag": "NULL",
+        "point_id": 95,
+        "describe": "#1 Diaphragm pump Bearing temperature",
+        "device_description_chinese": "#1隔膜泵轴承温度(最大值)",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -9.9999999E+07,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS01",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60af69b758630000a7005756"
+        },
+        "point_id": 96,
+        "describe": "#2 Diaphragm pump Bearing temperature",
+        "device_description_chinese": "#2隔膜泵轴承温度(最大值)",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -9.9999999E+07,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS02",
+        "opc_tag": "NULL",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60af69d658630000a7005757"
+        },
+        "point_id": 97,
+        "describe": "#3 Diaphragm pump Bearing temperature",
+        "device_description_chinese": "#3隔膜泵轴承温度(最大值)",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -9.9999999E+07,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS03",
+        "opc_tag": "NULL",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60af6a6c58630000a7005758"
+        },
+        "point_id": 98,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PI-602PS01/MonAnalog.PV#Value",
+        "describe": "#1 Diaphragm pump Pipeline pressure",
+        "device_description_chinese": "#1隔膜泵管道压力",
+        "serial": "PI-602PS01",
+        "instrument": "Pressure Indicator",
+        "device_name_chinese": "压力计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -9.9999999E+07,
+        "value_max": 5.0,
+        "unit": "MPa",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60af6a8358630000a7005759"
+        },
+        "point_id": 99,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PI-602PS03/MonAnalog.PV#Value",
+        "describe": "#3 Diaphragm pump Pipeline pressure",
+        "device_description_chinese": "#3隔膜泵管道压力",
+        "serial": "PI-602PS03",
+        "instrument": "Pressure Indicator",
+        "device_name_chinese": "压力计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -9.9999999E+07,
+        "value_max": 5.0,
+        "unit": "MPa",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60b0a0092b240000690047f2"
+        },
+        "point_id": 100,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::FIC-311TH01B/Comms.Heartbeat",
+        "describe": "Underflow concentration control connection signal",
+        "device_description_chinese": "底流浓度控制连接信号",
+        "serial": "Heartbeat",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -1.0,
+        "value_max": 3.0,
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "device_name_chinese": "控制器",
+        "instrument": "Controller",
+        "unit": "NULL",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60b71e44ac070000cd007374"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::TI-602PS01H/MonAnalog.PV#Value",
+        "point_id": 101,
+        "describe": "#1 Diaphragm pump Bearing temperature 1",
+        "device_description_chinese": "#1隔膜泵轴承温度1",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS01H",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60b71e85ac070000cd007375"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::TI-602PS01J/MonAnalog.PV#Value",
+        "point_id": 102,
+        "describe": "#1 Diaphragm pump Bearing temperature 2",
+        "device_description_chinese": "#1隔膜泵轴承温度2",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS01J",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60b71eabac070000cd007376"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::TI-602PS01K/MonAnalog.PV#Value",
+        "point_id": 103,
+        "describe": "#1 Diaphragm pump Bearing temperature 3",
+        "device_description_chinese": "#1隔膜泵轴承温度3",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS01K",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60b71ed6ac070000cd007377"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::TI-602PS01L/MonAnalog.PV#Value",
+        "point_id": 104,
+        "describe": "#1 Diaphragm pump Bearing temperature 4",
+        "device_description_chinese": "#1隔膜泵轴承温度4",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS01L",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60b73f86ac070000cd007379"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::TI-602PS02H/MonAnalog.PV#Value",
+        "point_id": 105,
+        "describe": "#2 Diaphragm pump Bearing temperature 1",
+        "device_description_chinese": "#2隔膜泵轴承温度1",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS02H",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60b73fe0ac070000cd00737a"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::TI-602PS02J/MonAnalog.PV#Value",
+        "point_id": 106,
+        "describe": "#2 Diaphragm pump Bearing temperature 2",
+        "device_description_chinese": "#2隔膜泵轴承温度2",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS02J",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60b74152ac070000cd00737b"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::TI-602PS02K/MonAnalog.PV#Value",
+        "point_id": 107,
+        "describe": "#2 Diaphragm pump Bearing temperature 3",
+        "device_description_chinese": "#2隔膜泵轴承温度3",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS02K",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60b7417cac070000cd00737c"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::TI-602PS02L/MonAnalog.PV#Value",
+        "point_id": 108,
+        "describe": "#2 Diaphragm pump Bearing temperature 4",
+        "device_description_chinese": "#2隔膜泵轴承温度4",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS02L",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60b741e6ac070000cd00737d"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::TI-602PS03H/MonAnalog.PV#Value",
+        "point_id": 109,
+        "describe": "#3 Diaphragm pump Bearing temperature 1",
+        "device_description_chinese": "#3隔膜泵轴承温度1",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS03H",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60b74211ac070000cd00737e"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::TI-602PS03J/MonAnalog.PV#Value",
+        "point_id": 110,
+        "describe": "#3 Diaphragm pump Bearing temperature 2",
+        "device_description_chinese": "#3隔膜泵轴承温度2",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS03J",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60b7422bac070000cd00737f"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::TI-602PS03K/MonAnalog.PV#Value",
+        "point_id": 111,
+        "describe": "#3 Diaphragm pump Bearing temperature 3",
+        "device_description_chinese": "#3隔膜泵轴承温度3",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS03K",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60b74251ac070000cd007380"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::TI-602PS03L/MonAnalog.PV#Value",
+        "point_id": 112,
+        "describe": "#3 Diaphragm pump Bearing temperature 4",
+        "device_description_chinese": "#3隔膜泵轴承温度4",
+        "instrument": "Temperature Indicator",
+        "device_name_chinese": "温度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "℃",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "TI-602PS03L",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60c0c824a6310000240067b3"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PSI300.ValueAssay1",
+        "point_id": 113,
+        "describe": "Grinding size <74 microns",
+        "device_description_chinese": "磨矿粒度<74微米",
+        "instrument": "Grinding size Indicator",
+        "device_name_chinese": "磨矿粒度分析仪",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 100.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "PSI300",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60c0c864a6310000240067b4"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PSI300.ValueAssay3",
+        "point_id": 114,
+        "describe": "Grinding size >150 microns",
+        "device_description_chinese": "磨矿粒度>150微米",
+        "instrument": "Grinding size Indicator",
+        "device_name_chinese": "磨矿粒度分析仪",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 100.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "PSI300",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60c0c8ada6310000240067b5"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PSI300.ValueAssay4",
+        "point_id": 115,
+        "describe": "Grinding size 150>113 microns",
+        "device_description_chinese": "磨矿粒度150>113微米",
+        "instrument": "Grinding size Indicator",
+        "device_name_chinese": "磨矿粒度分析仪",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 100.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "PSI300",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60c0c8f0a6310000240067b6"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PSI300.ValueAssay5",
+        "point_id": 116,
+        "describe": "Grinding size 113>74 microns",
+        "device_description_chinese": "磨矿粒度113>74微米",
+        "instrument": "Grinding size Indicator",
+        "device_name_chinese": "磨矿粒度分析仪",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 100.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "PSI300",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60c0c97aa6310000240067b7"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PSI300.ValueAssay6",
+        "point_id": 117,
+        "describe": "Grinding size 74>43 microns",
+        "device_description_chinese": "磨矿粒度74>43微米",
+        "instrument": "Grinding size Indicator",
+        "device_name_chinese": "磨矿粒度分析仪",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 100.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "PSI300",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60c0c9dfa6310000240067b8"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PSI300.ValueAssay7",
+        "point_id": 118,
+        "describe": "Grinding size 43>38 microns",
+        "device_description_chinese": "磨矿粒度43>38微米",
+        "instrument": "Grinding size Indicator",
+        "device_name_chinese": "磨矿粒度分析仪",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 100.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "PSI300",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60c0cad8a6310000240067b9"
+        },
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::PSI300.ValueAssay8",
+        "point_id": 119,
+        "describe": "Grinding size <38 microns",
+        "device_description_chinese": "磨矿粒度<38微米",
+        "instrument": "Grinding size Indicator",
+        "device_name_chinese": "磨矿粒度分析仪",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 100.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T15:24:40Z"
+        },
+        "thickener_id": 0.0,
+        "mixer_id": 0.0,
+        "serial": "PSI300",
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60ce0f1d546a000019001103"
+        },
+        "point_id": 120,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DIC-311TH01B_Diaph/PID.PV_Out#Value",
+        "describe": "#1 Thickener Discharge Concentration",
+        "device_description_chinese": "#1浓密机出料浓度-排尾",
+        "serial": "DIC-311TH01B",
+        "instrument": "Density Indicator",
+        "device_name_chinese": "浓度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60ce0f38546a000019001104"
+        },
+        "point_id": 121,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DIC-311TH02B_Diaph/PID.PV_Out#Value",
+        "describe": "#2 Thickener Discharge Concentration",
+        "device_description_chinese": "#2浓密机出料浓度-排尾",
+        "serial": "DIC-311TH01B",
+        "instrument": "Density Indicator",
+        "device_name_chinese": "浓度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 70.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60d255a0cffed193fe6c4986"
+        },
+        "point_id": 122,
+        "opc_tag": "NULL",
+        "describe": "MIXER NUMBER CONNECTED BY #1 THICKENER",
+        "device_description_chinese": "被#1浓密机连接的搅拌机编号",
+        "serial": "NULL",
+        "instrument": "NULL",
+        "device_name_chinese": "逻辑值",
+        "belong_co": "INTELLEGENCE",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 2.0,
+        "unit": "NULL",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60d255fdcffed193fe6c606b"
+        },
+        "point_id": 123,
+        "opc_tag": "NULL",
+        "describe": "MIXER NUMBER CONNECTED BY #2 THICKENER",
+        "device_description_chinese": "被#2浓密机连接的搅拌机编号",
+        "serial": "NULL",
+        "instrument": "NULL",
+        "device_name_chinese": "逻辑值",
+        "belong_co": "INTELLEGENCE",
+        "status": "normal",
+        "value_min": 0.0,
+        "value_max": 2.0,
+        "unit": "NULL",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60ddb4a1d15f0000760044b2"
+        },
+        "point_id": 124,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DIC-311TH01B_Back/MonAnalog1.PV_Out#Value",
+        "describe": "#1 Thickener Discharge Density",
+        "device_description_chinese": "#1浓密机出料密度",
+        "serial": "DIC-311TH01A",
+        "instrument": "Density Indicator",
+        "device_name_chinese": "浓度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -9.9999999E+07,
+        "value_max": 2.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60ddb4c8d15f0000760044b3"
+        },
+        "point_id": 125,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DIC-311TH02B_Back/MonAnalog1.PV_Out#Value",
+        "describe": "#2 Thickener Discharge Density",
+        "device_description_chinese": "#2浓密机出料密度",
+        "serial": "DIC-311TH02A",
+        "instrument": "Density Indicator",
+        "device_name_chinese": "浓度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -9.9999999E+07,
+        "value_max": 2.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60ddbf49806e0000a90010b2"
+        },
+        "point_id": 126,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DIC-311TH01B_Back/BackFillingDiCtr.DI_PV#Value",
+        "describe": "#1 Thickener Discharge Density",
+        "device_description_chinese": "#1浓密机出料浓度",
+        "serial": "DIC-311TH01B",
+        "instrument": "Density Indicator",
+        "device_name_chinese": "浓度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -9.9999999E+07,
+        "value_max": 70.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 1.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    },
+    {
+        "_id": {
+            "$oid": "60ddbf8c806e0000a90010b3"
+        },
+        "point_id": 127,
+        "opc_tag": "SOUTHEASTORE_PRJ_OS::DIC-311TH02B_Back/BackFillingDiCtr.DI_PV#Value",
+        "describe": "#2 Thickener Discharge Density",
+        "device_description_chinese": "#2浓密机出料浓度",
+        "serial": "DIC-311TH02B",
+        "instrument": "Density Indicator",
+        "device_name_chinese": "浓度计",
+        "belong_co": "METSO",
+        "status": "normal",
+        "value_min": -9.9999999E+07,
+        "value_max": 70.0,
+        "unit": "%",
+        "last_monitor_time": {
+            "$date": "2019-11-25T12:24:40Z"
+        },
+        "thickener_id": 2.0,
+        "mixer_id": 0.0,
+        "value_max_2": 0.0,
+        "value_min_2": 0.0
+    }
+]
