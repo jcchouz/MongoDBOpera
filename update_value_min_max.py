@@ -19,7 +19,7 @@ point_data = xlrd.open_workbook("./point-2021-08-03(update_value_min_max).xlsx")
 sheet = point_data.sheet_by_index(0)  # 表
 nrows = sheet.nrows  # 行数
 point_id = 1
-for rownum in range(nrows):
+for rownum in range(1, nrows):  # 1:跳过第0行，也就是表格抬头
     row = sheet.row_values(rownum)
     if row:
         # 修改一条数据 update_one()方法 ,如果查找到的匹配数据多于一条，则只会修改第一条。
